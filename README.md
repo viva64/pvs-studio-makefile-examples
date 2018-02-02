@@ -1,6 +1,6 @@
 # Examples of PVS-Studio integration in Makefile
 
-Several examples in this repository will help you learn to properly integrate [PVS-Studio](https://www.viva64.com/en/pvs-studio/) in build systems on the example of *Makefile*.
+A few examples in this repository will help you learn to properly integrate [PVS-Studio](https://www.viva64.com/en/pvs-studio/) in build systems on the example of *Makefile*.
 
 This way of using the analyzer has the following advantages:
 
