@@ -18,7 +18,7 @@ In this regard, we have several restrictions for the compilation parameters bein
 
 This fact does not presuppose any changes in the settings of project to be checked, but part of the parameters should be excluded for the analyzer to run in properly.
 
-### Analysis without integration (Linux only)
+### Analysis without integration (Linux)
 
 This utility requires the [strace](http://man7.org/linux/man-pages/man1/strace.1.html) utility.
 
@@ -61,3 +61,7 @@ pvs-studio-analyzer ... -e /path/to/exclude-path ...
 ```
 
 There shouldn't be any issues with the cross compilers during the integration of the analyzer into the build system.
+
+### Analysis without integration (Windows)
+
+[Compiler Monitoring System in PVS-Studio](https://www.viva64.com/en/m/0031/)
