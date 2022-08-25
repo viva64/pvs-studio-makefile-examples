@@ -1,6 +1,6 @@
 # Examples of PVS-Studio integration in Makefile
 
-A few examples in this repository will help you learn to properly integrate [PVS-Studio](https://www.viva64.com/en/pvs-studio/) in build systems on the example of *Makefile*.
+A few examples in this repository will help you learn to properly integrate [PVS-Studio](https://www.pvs-studio.com/en/pvs-studio/) in build systems on the example of *Makefile*.
 
 This way of using the analyzer has the following advantages:
 
@@ -12,7 +12,7 @@ Analyzer settings that are the same for all the project files, can be stored in 
 
 ### Preprocessor parameters
 
-The analyzer checks not the source files, but [preprocessed](https://www.viva64.com/en/t/0076/) files. This method allows the analyzer perform a more in-depth and qualitative analysis of the source code.
+The analyzer checks not the source files, but [preprocessed](https://www.pvs-studio.com/en/t/0076/) files. This method allows the analyzer perform a more in-depth and qualitative analysis of the source code.
 
 In this regard, we have several restrictions for the compilation parameters being passed. These are parameters that hinder the compiler run in the preprocessor mode, or damage the preprocessor output. A number of debugging and optimization flags, for example,*-O2*, *-O3*, *-g3*, *-ggdb3* and others, create changes which affect the preprocessor output. Information about invalid parameters will be displayed by the analyzer when they are detected.
 
@@ -64,4 +64,4 @@ There shouldn't be any issues with the cross compilers during the integration of
 
 ### Analysis without integration (Windows)
 
-[Compiler Monitoring System in PVS-Studio](https://www.viva64.com/en/m/0031/)
+[Compiler Monitoring System in PVS-Studio](https://www.pvs-studio.com/en/m/0031/)
